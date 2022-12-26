@@ -22,7 +22,7 @@ public class MyApplication extends Application {
         //As instance of ViewModel class MainViewModel was being created by Dependency component, so we will comment out every line
         // where viewModel is being used. We will later bring them back when we completely introduce Dagger in our project and
         // it creates instance of MainViewModel
-        //DependencyComponent.inject(this);
+        DependencyComponent.inject(this);
 
 
     }
